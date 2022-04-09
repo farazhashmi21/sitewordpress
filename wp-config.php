@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'website' );
+define( 'DB_NAME', 'site' );
 
 /** Database username */
 define( 'DB_USER', 'developerfarazhashmi' );
@@ -65,7 +65,7 @@ define('NONCE_SALT',       'Z%Gw|-k1i|MsV*<U;`LOQOM-DF5U3]w(M`L}bW8<9xy1C^o4)}<*
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_website_';
+$table_prefix = 'wp_site_';
 
 /**
  * For developers: WordPress debugging mode.
